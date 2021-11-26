@@ -1,0 +1,99 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 100% !important;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/*CONTACT BUTTON*/
+  .xyz {
+    background-size: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CB{
+  margin-left: 11% !important;
+margin-bottom: 2% !important;
+}
+.contact{
+  position: sticky; 
+  position: -webkit-sticky; 
+  bottom: 0; right: 0;
+}
+/*PARAGRAPH ALIGNMENT*/
+.p {
+ max-width: 50%;
+ margin-left: 25%;
+}
+
+.p2 {
+  max-width: 60%;
+  margin-left: 30%;
+  margin-right: 20%;
+ }
+
+ .h1 {
+  margin-left: 30%;
+  margin-right: 30%;
+   margin-top: 100px !important;
+   margin-bottom: 50px !important;
+ }
+ .h2 {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 100px !important;
+  margin-bottom: 50px !important;
+ }
+ .f {
+   margin-left: 10% !important;
+ }
+
+ /*IMAGES*/
+.profile {
+width: 30%;
+margin-left: 25%;
+border-radius: 20%;
+}
+.photocarousel{
+  max-width: 50;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.image{
+  height: 400px !important;
+  margin: auto !important;
+
+}
+.graphic{
+  width: 50% !important;
+  margin: auto !important;
+}
+/*MUSIC PLAYER*/
+.spoty{
+  width: 60%;
+  height: 30%;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+/*LINKS*/
+
