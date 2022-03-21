@@ -40,7 +40,7 @@
     justify-content: center;
     align-items: center;
 }
-/*mobile*/
+/*Contact button mobile*/
 @media screen and (max-width: 699px){
 .CB{
   margin-left: 2% !important;
@@ -48,10 +48,10 @@ margin-bottom: 2% !important;
 border-color: rgb(225, 226, 214) !important;
 }
 }
-/*other*/
+/*Contact button other*/
 @media screen and (min-width: 699px){
   .CB{
-    margin-left: 10% !important;
+    margin-left: 5.5% !important;
   margin-bottom: 2% !important;
   border-color: rgb(225, 226, 214) !important;
   }
@@ -63,63 +63,77 @@ border-color: rgb(225, 226, 214) !important;
 }
 /*PARAGRAPH ALIGNMENT*/
 .p {
- max-width: 60%;
- margin-left: 20%;
+ max-width: 70%;
+ margin-left: 15%;
 }
 
 .p2 {
   max-width: 70%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
  }
 
  .h1 {
-  margin-left: 30%;
-  margin-right: 30%;
-   margin-top: 100px !important;
-   margin-bottom: 50px !important;
+  margin-left: 15%;
+  margin-right: 15%;
+   margin-top: 70px !important;
+   margin-bottom: 20px !important;
  }
  .h2 {
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 100px !important;
-  margin-bottom: 50px !important;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 70px !important;
+  margin-bottom: 20px !important;
  }
  .f {
    margin-left: 10% !important;
  }
 
- /*IMAGES*/
- /*mobile*/
+ /*SCREENS*/
+    /*mobile*/
  @media screen and (max-width: 699px){
 .width {
-  width: 80%;
-  margin-left: 15%;
-  margin-right: 15%;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  }
+ .profile{
+  width: 70%;
   }
   }
   /*medium screens*/
  @media screen and (min-width: 700px) and (max-width: 1000px){
 .width {
-width: 50%;
-margin-left: 25%;
-margin-right: 25%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
+.profile{
+  width: 70%;
+  }
 }
   /*big screens*/
   @media screen and (min-width: 1000px){
 .width {
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
     }
+    .profile{
+      width: 600px;
+
+      }
     }
+
+ /*IMAGES*/
 .profile {
 position: inherit;
 
   margin-top: 50px;
   margin-bottom: 50px;
-  border-radius: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+
   }
 .photocarousel{
   max-width: 50;
@@ -137,10 +151,24 @@ position: inherit;
 }
 /*MUSIC PLAYER*/
 .spoty{
-  width: 60%;
+  width: 70%;
   height: 30%;
-  margin-left: 25%;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+/*VIDEO PLAYER*/
+.tube{
+width: 70% !important; 
+
+  
+  margin-left: 15%;
   margin-top: 50px;
 }
 /*LINKS*/
+a {
+  color:rgb(238, 46, 255) !important;
+}
+a:hover {
+  color:rgb(255, 255, 255) !important;
+}
 
